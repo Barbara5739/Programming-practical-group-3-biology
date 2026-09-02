@@ -4,4 +4,4 @@ This is the GitHub repository created for the programming practical PRA2003. It 
 ##Requirements: 
 - VSCode
 - Python 3. 14.3 or higher
-- Python packages: - to be continued. 
+- Python packages: - to be continued 
