@@ -11,7 +11,7 @@ This is the GitHub repository created for the programming practical PRA2003. It 
 ## Results
 The following list explains which ID represents what bacterium:
 
-211 E. coli WT (wild type)
+211 E. coli WT (wild type) \n
 -211 E. coli mutant
 
 321 Bacillus subtilis WT
