@@ -13,32 +13,22 @@ The following list explains which ID represents what bacterium:
 
 - 211 E. coli WT (wild type)
 - -211 E. coli mutant
-
-321 Bacillus subtilis WT
-
--321 Bacillus subtilis mutant
-
-2212 Pseudomonas aeruginosa WT
-
--2212 Pseudomonas aeruginosa antibiotic-resistant
-
-3122 Streptococcus pneumoniae
-
--3122 Capsule-deficient streptococcus pneumoniae
-
-3312 Mycobacterium tuberculosis
-
--3312 Drug-resistant mycobacterium tuberculosis
-
-3334 Salmonella enteric
-
--3334 Salmonella mutant
+- 321 Bacillus subtilis WT
+- -321 Bacillus subtilis mutant
+- 2212 Pseudomonas aeruginosa WT
+- -2212 Pseudomonas aeruginosa antibiotic-resistant
+- 3122 Streptococcus pneumoniae
+- -3122 Capsule-deficient streptococcus pneumoniae
+- 3312 Mycobacterium tuberculosis
+- -3312 Drug-resistant mycobacterium tuberculosis
+- 3334 Salmonella enteric
+- -3334 Salmonella mutant
 
 This is an example of what the code shows when run for one datafile (set1.txt in this case). The total mean and total uncertainty is calculated using the subsampling method:
 
 total calculations   
-ID   211: Mean of Means = 3.52503 | Total Uncertainty = 1.80023
-ID  -211: Mean of Means = 3.51546 | Total Uncertainty = 1.78150
++ ID   211: Mean of Means = 3.52503 | Total Uncertainty = 1.80023
++ ID  -211: Mean of Means = 3.51546 | Total Uncertainty = 1.78150
 ID   321: Mean of Means = 4.77971 | Total Uncertainty = 4.67576
 ID  -321: Mean of Means = 4.72950 | Total Uncertainty = 4.53423
 ID  2212: Mean of Means = 6.01319 | Total Uncertainty = 6.39436
