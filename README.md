@@ -10,17 +10,29 @@ This is the GitHub repository created for the programming practical PRA2003. It 
 
 ## Results
 The following list explains which ID represents what bacterium:
+
 211 E. coli WT (wild type)
+
 -211 E. coli mutant
+
 321 Bacillus subtilis WT
+
 -321 Bacillus subtilis mutant
+
 2212 Pseudomonas aeruginosa WT
+
 -2212 Pseudomonas aeruginosa antibiotic-resistant
+
 3122 Streptococcus pneumoniae
+
 -3122 Capsule-deficient streptococcus pneumoniae
+
 3312 Mycobacterium tuberculosis
+
 -3312 Drug-resistant mycobacterium tuberculosis
+
 3334 Salmonella enteric
+
 -3334 Salmonella mutant
 
 This is an example of what the code shows when run for one datafile (set1.txt in this case). The total mean and total uncertainty is calculated using the subsampling method:
