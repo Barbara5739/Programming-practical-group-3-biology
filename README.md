@@ -6,9 +6,9 @@ This is the GitHub repository created for the programming practical PRA2003. It 
 - VS Code
 - The database can be downloaded at: https://surfdrive.surf.nl/index.php/s/7udCnWTk4yMUASD
 - Python 3. 14.3 or higher
-- Python packages: math, statistics
+- Python packages: math, os, numpy, matplotlib, scipy 
 
-## Results
+## The ID's
 The following list explains which ID represents what bacterium:
 
 - 211 E. coli WT (wild type)
@@ -24,19 +24,34 @@ The following list explains which ID represents what bacterium:
 - 3334 Salmonella enteric
 - -3334 Salmonella mutant
 
-This is an example of what the code shows when run for one datafile (set1.txt in this case). The total mean and total uncertainty is calculated using the subsampling method:
+## Results:
 
-total calculations   
-- ID   211: Mean of Means = 3.52503 | Total Uncertainty = 1.80023
-- ID  -211: Mean of Means = 3.51546 | Total Uncertainty = 1.78150
-- ID   321: Mean of Means = 4.77971 | Total Uncertainty = 4.67576
-- ID  -321: Mean of Means = 4.72950 | Total Uncertainty = 4.53423
-- ID  2212: Mean of Means = 6.01319 | Total Uncertainty = 6.39436
-- ID -2212: Mean of Means = 5.95920 | Total Uncertainty = 6.29231
-- ID  3122: Mean of Means = 7.01459 | Total Uncertainty = 9.24449
-- ID -3122: Mean of Means = 6.94246 | Total Uncertainty = 8.96663
-- ID  3312: Mean of Means = 8.08212 | Total Uncertainty = 11.24226
-- ID -3312: Mean of Means = 8.03394 | Total Uncertainty = 10.96069
-- ID  3334: Mean of Means = 9.45021 | Total Uncertainty = 14.08595
-- ID -3334: Mean of Means = 9.92836 | Total Uncertainty = 12.34447
+### Plots
+The plots for the 2212 and -2212 asymmetry can be seen at: Screenshot 2026-10-13 at 22.18.49.png
+The plots for ID 3334 and -3334 asymmetry can be seen at:
+
+## Are these results significant?
+The code also calculates whether there is a significant asymmetry in the case of any of the data points.
+For Pseudomonas aeruginosa, no significant asymmetry in the momentum was found:
+
+Statistical Significance calculation using an unpaired t-test: 
+Range [  0 -  10]: p-value = 0.6038 (Not Significant)
+Range [ 10 -  25]: p-value = 0.8907 (Not Significant)
+Range [ 25 -  45]: p-value = 0.8640 (Not Significant)
+Range [ 45 -  70]: p-value = 0.7266 (Not Significant)
+Range [ 70 - 100]: p-value = 0.5272 (Not Significant)
+Range [100 - 135]: p-value = 0.4329 (Not Significant)
+Range [135 - 175]: p-value = 0.3624 (Not Significant)
+
+The same was the case for Salmonella:
+
+Statistical Significance calculation using an unpaired t-test: 
+Range [  0 -  10]: p-value = 0.5295 (Not Significant)
+Range [ 10 -  25]: p-value = 0.9738 (Not Significant)
+Range [ 25 -  45]: p-value = 0.9379 (Not Significant)
+Range [ 45 -  70]: p-value = 0.7767 (Not Significant)
+Range [ 70 - 100]: p-value = 0.1401 (Not Significant)
+Range [100 - 135]: p-value = 0.6317 (Not Significant)
+Range [135 - 175]: p-value = 1.0000 (Not Significant)
+
 
